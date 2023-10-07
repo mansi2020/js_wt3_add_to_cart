@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Test-3 Add to cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="products">
+            <h1 id="heading">Products</h1>
+                <div class="cat">
+                    <p>Product-1</p>
+                    <p>100</p>
+                    <div class="add">
+                        <span class="sign minus" onclick="totalClick(-1)">-</span>
+                        <span class="add-item"  id="add-item-1">0</span>
+                        <span class="sign plus" id="p1" onclick="totalClick(1)">+</span>
+                    </div>
+                </div>
+                <div class="cat">
+                    <p>Product-2</p>
+                    <p>200</p>
+                    <div class="add">
+                        <span class="sign minus" >-</span>
+                        <span class="add-item">0</span>
+                        <span class="sign plus" onclick="totalClick(1)">+</span>
+                    </div>
+                </div>
+                <div class="cat">
+                    <p>Product-3</p>
+                    <p>300</p>
+                    <div class="add">
+                        <span class="sign minus" >-</span>
+                        <span class="add-item">0</span>
+                        <span class="sign plus" >+</span>
+                    </div>
+                </div>
+        </div>
+        <div id="cart">
+            <h1>Cart</h1>
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

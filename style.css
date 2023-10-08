@@ -137,6 +137,7 @@ img{
         display:none;
         position: absolute;
         background-color: white;
+        box-shadow:1rem 1rem 20rem 2rem #3F2609;
     }
     #products {
         border: 10px solid #3F2609;

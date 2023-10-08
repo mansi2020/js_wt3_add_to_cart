@@ -127,5 +127,11 @@ cat.forEach((item, idx) => {
     });
 });
 
+///add to cart
+let cartsign = document.getElementsByClassName("cartsign");
+cartsign[0].addEventListener('click',()=>{
+    cart.style.display = "block";
+    cart.style.boxShadow = "#3F2609 1rem 1rem 20rem 2rem";
+})
 
 

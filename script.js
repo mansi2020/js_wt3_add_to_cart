@@ -94,6 +94,7 @@ cat.forEach((item, idx) => {
             if (totalPrice == 0) {
                 emptyCart.style.display = "block";
                 cartproduct.style.display = "none";
+                cartproductsub[idx].style.display = "none";
             } else {
                 emptyCart.style.display = "none";
                 cartproduct.style.display = "block";

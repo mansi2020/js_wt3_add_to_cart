@@ -6,6 +6,7 @@
     <title>Weekly Test-3 Add to cart</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="container">
         <div id="products">
@@ -14,9 +15,9 @@
                     <p>Product-1</p>
                     <p>100</p>
                     <div class="add">
-                        <span class="sign minus" onclick="totalClick(-1)">-</span>
-                        <span class="add-item"  id="add-item-1">0</span>
-                        <span class="sign plus" id="p1" onclick="totalClick(1)">+</span>
+                        <span class="sign minus">-</span>
+                        <span class="add-item">0</span>
+                        <span class="sign plus" >+</span>
                     </div>
                 </div>
                 <div class="cat">
@@ -25,7 +26,7 @@
                     <div class="add">
                         <span class="sign minus" >-</span>
                         <span class="add-item">0</span>
-                        <span class="sign plus" onclick="totalClick(1)">+</span>
+                        <span class="sign plus" >+</span>
                     </div>
                 </div>
                 <div class="cat">
@@ -37,9 +38,33 @@
                         <span class="sign plus" >+</span>
                     </div>
                 </div>
+                
         </div>
+        
         <div id="cart">
             <h1>Cart</h1>
+            <div id="cartproduct">
+                <div class="cartproductsub">
+                    <span class="p1">Product-1</span>
+                    <span><span id="q1">1 </span> x 100 </span>
+                </div>
+                <div class="cartproductsub">
+                    <span>Product-2</span>
+                    <span class="p2"><span id="q2">1 </span> x 200 </span>
+                </div>
+                <div class="cartproductsub">
+                    <span>Product-3</span>
+                    <span class="p2"><span id="q3">1 </span> x 200 </span>
+                </div>
+            </div>
+            <div id='cart-sub'>
+                <img src="./cart-2.png" alt="cart">
+                <h4>No Product added to the cart.</h4>
+            </div>
+            <div id="total">
+                <span>Total :</span>
+                <span id="totalruppe">0 ₹</span>
+            </div>
         </div>
     </div>
     
